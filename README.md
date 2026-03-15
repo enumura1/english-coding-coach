@@ -104,12 +104,24 @@ Then copy `CLAUDE.md` to your project root (if you already have one, merge the c
 curl -o CLAUDE.md https://raw.githubusercontent.com/enumura1/english-coding-coach/main/CLAUDE.md
 ```
 
-### Option 2: Manual copy
+### Option 2: Skills CLI (works with Claude Code, Codex, Cursor, etc.)
+
+```bash
+npx skills add enumura1/english-coding-coach
+```
+
+Then copy `CLAUDE.md` to your project root:
+
+```bash
+curl -o CLAUDE.md https://raw.githubusercontent.com/enumura1/english-coding-coach/main/CLAUDE.md
+```
+
+### Option 3: Manual copy
 
 1. Copy `CLAUDE.md` to your project root (if you already have one, merge the contents)
 2. Copy `skills/english-coaching/` folder to your project's `.claude/skills/` directory
 
-Both `CLAUDE.md` and `SKILL.md` are required. `CLAUDE.md` defines the output rules, `SKILL.md` provides vocabulary reference data.
+All options require `CLAUDE.md` in your project root. `CLAUDE.md` defines the output rules, `SKILL.md` provides vocabulary reference data.
 
 ## How it works
 
