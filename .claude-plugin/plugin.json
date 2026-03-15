@@ -6,5 +6,7 @@
     "name": "enumura1"
   },
   "repository": "https://github.com/enumura1/english-coding-coach",
-  "license": "MIT"
+  "homepage": "https://github.com/enumura1/english-coding-coach",
+  "license": "MIT",
+  "keywords": ["japanese", "english", "learning", "vocabulary", "coding"]
 }
