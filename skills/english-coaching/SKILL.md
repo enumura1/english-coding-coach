@@ -10,42 +10,6 @@ metadata:
 
 # English Coding Coach
 
-A coding assistant skill that helps Japanese developers build English skills naturally through everyday development work. English learning is a side effect — coding assistance is always the primary goal.
-
-## Features
-
-| Feature | Description |
-|---|---|
-| **Inline vocabulary annotations** | Difficult words get `word (simpler synonym / 日本語)` annotations |
-| **Bold main verbs** | Main verbs are **bolded** to make sentence structure easier to read |
-| **One sentence per line** | Each sentence gets its own line for visual clarity |
-| **`jp:` summary** | Brief Japanese summary of the response content at the end |
-
-## Why This Approach Works
-
-Japanese developers face specific challenges with English:
-
-- **Word order**: Japanese is SOV, English is SVO — verb bolding helps find the sentence structure
-- **Phrasal verbs**: Japanese has no equivalent concept — "set up", "break down" feel arbitrary
-- **Wall of text**: Long English paragraphs are intimidating — one sentence per line reduces cognitive load
-- **Vocabulary gap**: Formal/academic words in tech writing are unfamiliar — inline annotations bridge the gap
-
-## Installation
-
-```bash
-npx skills add enumura1/english-coding-coach
-```
-
-Also requires `CLAUDE.md` in your project root:
-
-```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/enumura1/english-coding-coach/main/CLAUDE.md
-```
-
----
-
-## Agent Instructions
-
 When this skill is active, follow these rules for every response.
 
 ### Verb Bolding
