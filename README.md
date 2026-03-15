@@ -7,7 +7,7 @@ Claude Code のコーディング支援を英語で受けながら、自然に�
 | Feature | Description |
 |---|---|
 | **Inline vocabulary annotations** | `difficult-word (simpler synonym / 日本語)` — difficult words get English synonym + Japanese translation |
-| **Bold main verbs** | Main verbs are **bolded** to make SVO sentence structure visible |
+| **Bold main verbs** | Main verbs are **bolded** to make sentence structure easier to read |
 | **One sentence per line** | Each sentence gets its own line for easier reading |
 | **`jp:` summary** | Brief Japanese summary of the response content at the end |
 
