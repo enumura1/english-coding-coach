@@ -4,7 +4,7 @@ A skill that helps Japanese developers build English skills naturally through ev
 
 This skill follows the open [Agent Skills](https://agentskills.io) standard.
 
-[![Skills.sh](https://skills.sh/s/enumura1/english-coding-coach/badge)](https://skills.sh/s/enumura1/english-coding-coach)
+[Skills.sh](https://skills.sh/s/enumura1/english-coding-coach)
 
 ## Who is this for?
 
