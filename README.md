@@ -101,42 +101,40 @@ This skill follows the open [Agent Skills](https://agentskills.io) standard.
 
 ## Installation
 
-### Option 1: Plugin (recommended)
+### Option 1: Claude Code Plugin (recommended)
 
-Add the marketplace and install:
+Run these commands **inside Claude Code** (`/` commands are Claude Code built-in):
 
 ```bash
-# Add marketplace
+# Step 1: Add the marketplace
 /plugin marketplace add enumura1/english-coding-coach
 
-# Install the plugin
+# Step 2: Install the plugin
 /plugin install english-coding-coach
 ```
 
-Then copy `CLAUDE.md` to your project root (if you already have one, merge the contents):
-
-```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/enumura1/english-coding-coach/main/CLAUDE.md
-```
-
 ### Option 2: Skills CLI (works with Claude Code, Codex, Cursor, etc.)
+
+Requires [Node.js](https://nodejs.org/) installed.
 
 ```bash
 npx skills add enumura1/english-coding-coach
 ```
 
-Then copy `CLAUDE.md` to your project root:
+### Option 3: Manual copy
+
+1. Copy `CLAUDE.md` to your project root
+2. Copy `skills/english-coaching/` folder to your project's `.claude/skills/` directory
+
+### After installation (all options)
+
+Copy `CLAUDE.md` to your project root. This file defines the output behavior rules.
 
 ```bash
 curl -o CLAUDE.md https://raw.githubusercontent.com/enumura1/english-coding-coach/main/CLAUDE.md
 ```
 
-### Option 3: Manual copy
-
-1. Copy `CLAUDE.md` to your project root (if you already have one, merge the contents)
-2. Copy `skills/english-coaching/` folder to your project's `.claude/skills/` directory
-
-All options require `CLAUDE.md` in your project root. `CLAUDE.md` defines the output rules, `SKILL.md` provides vocabulary reference data.
+If you already have a `CLAUDE.md`, merge the contents manually.
 
 ## How it works
 
