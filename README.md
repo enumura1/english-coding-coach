@@ -1,6 +1,15 @@
-# English Coding Coach — Claude Code Skill
+# English Coding Coach
 
 Claude Code のコーディング支援を英語で受けながら、自然に英語力を身につけるためのスキルです。
+
+This skill follows the open [Agent Skills](https://agentskills.io) standard.
+
+## Compatible Agents
+
+- [Claude Code](https://claude.ai/code) (Plugin or manual install)
+- [OpenAI Codex CLI](https://github.com/openai/codex) (via Skills CLI)
+- [Cursor](https://cursor.com/) (via Skills CLI)
+- Any agent supporting the [Agent Skills](https://agentskills.io) format
 
 ## Features
 
@@ -135,3 +144,27 @@ All options require `CLAUDE.md` in your project root. `CLAUDE.md` defines the ou
 - **No over-annotation** — annotations stay under ~10% of non-code text
 - **Code stays clean** — no annotations inside code blocks
 - **No escape hatch** — `jp:` summarizes content but doesn't translate everything, so you still engage with the English text
+
+## Skill Structure
+
+```
+english-coding-coach/
+├── .claude-plugin/
+│   └── plugin.json              # Plugin manifest
+├── skills/
+│   └── english-coaching/
+│       └── SKILL.md             # Vocabulary reference & verb bolding rules
+├── CLAUDE.md                    # Output behavior rules
+├── marketplace.json             # Self-hosted marketplace definition
+├── LICENSE                      # MIT
+└── README.md
+```
+
+## Requirements
+
+- [Claude Code](https://claude.ai/code) or any compatible agent installed
+- No additional dependencies
+
+## License
+
+MIT
