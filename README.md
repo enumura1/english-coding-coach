@@ -86,19 +86,30 @@ Claude Code のコーディング支援を英語で受けながら、自然に�
 
 ## Installation
 
+### Option 1: Plugin (recommended)
+
+Add the marketplace and install:
+
+```bash
+# Add marketplace
+/plugin marketplace add enumura1/english-coding-coach
+
+# Install the plugin
+/plugin install english-coding-coach
+```
+
+Then copy `CLAUDE.md` to your project root (if you already have one, merge the contents):
+
+```bash
+curl -o CLAUDE.md https://raw.githubusercontent.com/enumura1/english-coding-coach/main/CLAUDE.md
+```
+
+### Option 2: Manual copy
+
 1. Copy `CLAUDE.md` to your project root (if you already have one, merge the contents)
-2. Copy `.claude/skills/english-coaching/` folder to your project's `.claude/skills/` directory
+2. Copy `skills/english-coaching/` folder to your project's `.claude/skills/` directory
 
-```
-your-project/
-├── CLAUDE.md                              # Behavior rules
-└── .claude/
-    └── skills/
-        └── english-coaching/
-            └── SKILL.md                   # Vocabulary reference data
-```
-
-Both files are required. `CLAUDE.md` defines the output rules, `SKILL.md` provides vocabulary reference data.
+Both `CLAUDE.md` and `SKILL.md` are required. `CLAUDE.md` defines the output rules, `SKILL.md` provides vocabulary reference data.
 
 ## How it works
 

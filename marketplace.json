@@ -1,0 +1,15 @@
+{
+  "name": "english-coding-coach-marketplace",
+  "description": "Claude Code skills for Japanese developers learning English through coding",
+  "plugins": [
+    {
+      "name": "english-coding-coach",
+      "source": {
+        "type": "github",
+        "owner": "enumura1",
+        "repo": "english-coding-coach"
+      },
+      "description": "Inline vocabulary annotations, verb bolding for SVO structure, and Japanese summaries"
+    }
+  ]
+}

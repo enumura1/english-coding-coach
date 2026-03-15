@@ -1,0 +1,10 @@
+{
+  "name": "english-coding-coach",
+  "description": "Helps Japanese developers build English skills naturally through coding — inline vocabulary annotations, verb bolding for SVO structure, and Japanese summaries",
+  "version": "1.0.0",
+  "author": {
+    "name": "enumura1"
+  },
+  "repository": "https://github.com/enumura1/english-coding-coach",
+  "license": "MIT"
+}
