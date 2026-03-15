@@ -1,14 +1,14 @@
 # English Coding Coach
 
-Claude Code のコーディング支援を英語で受けながら、自然に英語力を身につけるためのスキルです。
+A skill that helps Japanese developers build English skills naturally through everyday coding. The agent always responds in English with inline vocabulary support — no English lessons, just real coding assistance that happens to teach you English along the way.
 
 This skill follows the open [Agent Skills](https://agentskills.io) standard.
 
 ## Who is this for?
 
-- 英語でのコーディングに慣れたい日本人開発者
-- 英語のドキュメントや技術文を読むのが苦手な方
-- 普段の開発作業の中で、自然に英語力を伸ばしたい方
+- Japanese developers who want to get comfortable coding in English
+- Developers who struggle with English documentation and technical writing
+- Anyone who wants to improve their English naturally through daily development work
 
 ## Compatible Agents
 
@@ -28,7 +28,7 @@ This skill follows the open [Agent Skills](https://agentskills.io) standard.
 
 ## Examples
 
-### 1. Bug fix — バグの原因を聞く
+### 1. Bug fix — Asking about the cause of a bug
 
 **You**: この関数がnullを返すんだけど原因わかる？
 
@@ -48,7 +48,7 @@ This skill follows the open [Agent Skills](https://agentskills.io) standard.
 > ---
 > jp: items が空配列のとき早期リターンで null を返している。空の結果を返すように修正すべき。
 
-### 2. Code review — コードの改善を聞く
+### 2. Code review — Asking for improvements
 
 **You**: このAPIのエラーハンドリング、もっと良くできない？
 
@@ -81,7 +81,7 @@ This skill follows the open [Agent Skills](https://agentskills.io) standard.
 > ---
 > jp: 汎用catchを廃止し、クライアントエラーとサーバーエラーを分けてログ出力。本番でのデバッグが容易になる。
 
-### 3. New feature — 実装方法を聞く
+### 3. New feature — Asking about implementation approach
 
 **You**: ページネーション実装したいんだけど、cursor方式とoffset方式どっちがいい？
 
