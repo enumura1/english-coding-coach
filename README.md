@@ -159,7 +159,9 @@ english-coding-coach/
 │   └── plugin.json              # Plugin manifest
 ├── skills/
 │   └── english-coaching/
-│       └── SKILL.md             # Vocabulary reference & verb bolding rules
+│       ├── SKILL.md             # Skill instructions (loaded when activated)
+│       └── references/
+│           └── vocabulary.md    # Word lists (loaded on demand)
 ├── CLAUDE.md                    # Output behavior rules
 ├── marketplace.json             # Self-hosted marketplace definition
 ├── LICENSE                      # MIT
