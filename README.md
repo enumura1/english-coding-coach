@@ -125,18 +125,7 @@ npx skills add enumura1/english-coding-coach
 
 ### Option 3: Manual copy
 
-1. Copy `CLAUDE.md` to your project root
-2. Copy `skills/english-coaching/` folder to your project's `.claude/skills/` directory
-
-### After installation (all options)
-
-Copy `CLAUDE.md` to your project root. This file defines the output behavior rules.
-
-```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/enumura1/english-coding-coach/main/CLAUDE.md
-```
-
-If you already have a `CLAUDE.md`, merge the contents manually.
+Copy `skills/english-coaching/` folder to your project's `.claude/skills/` directory.
 
 ## How it works
 
@@ -162,7 +151,7 @@ english-coding-coach/
 │       ├── SKILL.md             # Skill instructions (loaded when activated)
 │       └── references/
 │           └── vocabulary.md    # Word lists (loaded on demand)
-├── CLAUDE.md                    # Output behavior rules
+├── CLAUDE.md                    # Project instructions (for this repo's own dev)
 ├── marketplace.json             # Self-hosted marketplace definition
 ├── LICENSE                      # MIT
 └── README.md

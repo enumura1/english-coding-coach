@@ -1,7 +1,6 @@
 ---
 name: english-coaching
 description: Helps Japanese developers build English skills naturally through coding. Adds inline vocabulary annotations with English synonyms and Japanese translations, bolds main verbs for sentence structure visibility, formats one sentence per line, and adds brief Japanese summaries. Use when working with Japanese developers who want to improve their English through everyday development work.
-requires: Project-level CLAUDE.md with English Coding Coach rules
 user-invocable: false
 metadata:
   version: "1.0.0"
